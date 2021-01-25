@@ -84,5 +84,17 @@ p {
 .link:hover{
     background-color: burlywood;
     text-decoration: underline;
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster', cursiv
+}
+#videos{
+    text-align: center;
+}
+#work{
+    text-align: center;
+}
+#Write{
+    text-align: center;
+}
+html{
+    scroll-behavior: smooth;
 }
