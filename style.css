@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding-top: 800px;
-
+text-align: center;
 }
 
 .img {
@@ -63,23 +63,23 @@ p {
     text-align: center;
     vertical-align: middle;
 }
-.link{
-   float: left;
-    padding-top: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    padding-bottom: 5px;
+.link{ 
+    padding-left: 33px;
+    padding-right: 25px;
     font-size: 20px;
     font-family: fantasy;
+    display: inline;
+    
 }
 .menu{
     list-style: none;
-    position: absolute;
-    top: 10px;
+    position: fixed;
+    top: 0px;
     z-index: 10;
-    right: 30px;
     cursor: pointer;
-    
+   background: white;
+    width: 100%;
+    margin-top: 0px;
 }
 .link:hover{
     background-color: burlywood;
@@ -97,4 +97,20 @@ p {
 }
 html{
     scroll-behavior: smooth;
+}
+#c{
+    background: skyblue;
+    
+    
+}
+#c iframe{
+    width: 100%;
+}
+.contact_1 h3{
+    display: inline;
+    
+}
+.contact_1 a{
+    color: white;
+    
 }
